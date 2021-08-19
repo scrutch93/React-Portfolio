@@ -15,14 +15,26 @@ const Navbar = () => {
             </Link>
             <div className ="menu-icon" onClick={handleClick}>
                 <i className= {click ? 'fas fa-times' : 'fas fa-bars'}/>
-
             </div>
-            <l className ={click ? 'nav-menu active' : 'nav-menu'}>
+            
+            <ul className ={click ? 'nav-menu active' : 'nav-menu'}>
                 <li className ='nav-item'>
                     <Link to="/" className="nav-links" onClick={closeMobileMenu}>
-                        
+                        Home
                         </Link>
                 </li>
+                <li className='nav-item'>
+                    <Link to="/" className='nav-links' onClick={closeMobileMenu}>
+                    About
+                    </Link>
+                </li>
+                <li className="nav-item">
+                    <Link to='/' className='nav-links' onClick={closeMobileMenu}>
+                   Projects
+                    </Link>
+                </li>
+            </ul>
+                
             </div>
         </nav>
     )
