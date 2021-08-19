@@ -1,11 +1,22 @@
+import {useState} from "react"
+import "./style.css"
+import Navbar from "./components/Navbar";
+import Text from "./components/Text";
+import Input from "./components/Input";
 
 function App() {
+  const [text, setText] = useState("Steven")
+  
+  const update = (event) => {
+    setText(event.target.value)
+  }
+
   return (
-    <div className="app">
-     Yoooo
-     
-       
-    </div>
+    <>
+      <Navbar />
+      <Text mirror={text}/>
+      <Input change={update}/>
+    </>
   );
 }
 

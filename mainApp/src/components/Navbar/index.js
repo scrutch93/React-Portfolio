@@ -3,8 +3,9 @@ import "./navstyle.css"
 
 const Navbar = () => {
     return (
-        <nav>
-            <h1>Steven</h1>
+        <nav className= "navbar">
+            <div className ="navbar"></div>
+            <Link to="/" className="navbar -logo"></Link>
         </nav>
     )
 }
