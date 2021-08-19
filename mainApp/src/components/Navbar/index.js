@@ -5,6 +5,8 @@ import "./navstyle.css"
 const Navbar = () => {
     const [click, setClick] =useState (false);
 
+    const handleClick = ()=> setClick (!click);
+
     return (
         <nav className= "navbar">
             <div className ="navbar-container">
@@ -15,6 +17,12 @@ const Navbar = () => {
                 <i className= {click ? 'fas fa-times' : 'fas fa-bars'}/>
 
             </div>
+            <l className ={click ? 'nav-menu active' : 'nav-menu'}>
+                <li className ='nav-item'>
+                    <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+                        
+                        </Link>
+                </li>
             </div>
         </nav>
     )
