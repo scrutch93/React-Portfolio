@@ -1,6 +1,6 @@
 import React, {component} = require("react");
 
-class Footer extends Component{
+class home extends Component{
     render(){
         return
     }
@@ -8,4 +8,4 @@ class Footer extends Component{
 
 }
 
-export default Footer;
+export default home;

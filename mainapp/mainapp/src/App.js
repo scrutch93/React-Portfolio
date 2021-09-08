@@ -1,7 +1,7 @@
   
 import React  from 'react';
 import Navbar from './components/navbar'
-import About from './components/about'
+import About from './components/home'
 import Projects from './components/projects'
 import Contact from './components/contact'
 import Resume from './components/resume'
