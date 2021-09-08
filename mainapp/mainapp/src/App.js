@@ -1,36 +1,25 @@
-  
-import React  from 'react';
-import Navbar from './components/navbar'
-import About from './components/home'
-import Projects from './components/projects'
-import Contact from './components/contact'
-import Resume from './components/resume'
-import Footer from './components/footer'
+imort React from "react";
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+
+
+import './App.css';
+import home from './Pages/home':
+
+function App() {
+  return (
+    <div className="wrapper">
+      <Router>
+        <Switch>
+          <Route exact path="/" component={home}/>
+
+          </Switch>
 
 
 
-class ProductList extends React.Component {
-  render(){
-    return(
 
-    <div className="body">
-      <router />
-      <Navbar />
-      <About />
-      <Projects />
-      <Resume />
-      <Contact />
-      <Footer />
-      
-      <router />
-     
-    </div>
-
-    );
-
-    
-    }
-  
+      </Router>
+      </div>
+  );
 }
 
-export default ProductList;
+export default App;
