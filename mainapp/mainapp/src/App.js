@@ -1,9 +1,9 @@
-imort React from "react";
+import React from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 
 import './App.css';
-import home from './Pages/home':
+import home from './Pages/home';
 
 function App() {
   return (
