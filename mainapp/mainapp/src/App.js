@@ -168,7 +168,8 @@ function App() {
                             </div>
                            
                             <div className="form-floating mb-3">
-                                <textarea className="form-control" id="message" type="text" placeholder="Enter your message here..." style="height: 10rem" data-sb-validations="required"></textarea>
+                  
+                            <textarea className="form-control" id="message" type="text" placeholder="Enter your message here..." style={{"height": "10rem"}} data-sb-validations="required"></textarea>
                                 <label for="message">Message</label>
                                 <div className="invalid-feedback" data-sb-feedback="message:required">A message is required.</div>
                             </div>
