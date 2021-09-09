@@ -39,16 +39,14 @@ function App() {
                 </div>
                 
                 <div className="row">
-                    <div className="col-lg-4 ms-auto"><p className="lead">Freelancer is a free bootstrap theme created by Start Bootstrap. The download includes the complete source files including HTML, CSS, and JavaScript as well as optional SASS stylesheets for easy customization.</p></div>
-                    <div className="col-lg-4 me-auto"><p className="lead">You can create your own custom avatar for the masthead, change the icon in the dividers, and add your email address to the contact form to make it fully functional!</p></div>
+                    <div className="col-lg-4 ms-auto"><p className="lead">I'm a gamer! I am a huge Nintendo nerd and enjoy games as Mario, Zelda, and Pokemon. I also enjoy
+                    other games like Overwatch, Sonic, and Megaman.</p></div>
+                    <div className="col-lg-4 me-auto"><p className="lead">Also really big into Anime and drawing. I aim to hopefully land a career where I can
+                    apply my new skills and while being part of an environment that has one of these two hobbies of
+                    mine.</p></div>
                 </div>
                 
-                <div className="text-center mt-4">
-                    <a className="btn btn-xl btn-outline-light" href="https://startbootstrap.com/theme/freelancer/">
-                        <i className="fas fa-download me-2"></i>
-                        Free Download!
-                    </a>
-                </div>
+                
             </div>
         </section>
         
